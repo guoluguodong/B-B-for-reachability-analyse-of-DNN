@@ -1,0 +1,14 @@
+2025-05-01 00:06:47,147 - INFO - Namespace(log_file='outputs/DNN6/img[0]/min/DNN6img0_label6.log', image_path='img[0].png', model_path='network/DNN6.pth', label=6, init_epsilon=0.05, epsilon=0.01, ep=1, min=1)
+2025-05-01 00:06:47,162 - INFO - Model output max(1): torch.return_types.max(
+values=tensor([24.1332], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+2025-05-01 00:06:57,515 - INFO - cur_node_number 1,f_best -7.435139179229736,f_min -10.040119381272234,k 741.997231944839
+2025-05-01 00:06:57,515 - INFO - f_best_current -7.435139179229736,f_min -10.040119381272234
+2025-05-01 00:07:12,422 - INFO - tree_node.f_best*ep:-7.435139179229736,left_f_best-5.891806125640869,right_f_best-7.489409923553467,i:1
+2025-05-01 00:08:29,571 - INFO - 添加左子节点，右子节点，len(queue):2
+2025-05-01 00:08:29,571 - INFO - Node 1: k=741.997231944839, f_best=-7.435139179229736, f_min=-10.040119381272234
+2025-05-01 00:08:29,571 - INFO - Node 2: k=340.9804907936749, f_best=-5.891806125640869, f_min=-6.746598286226799
+2025-05-01 00:08:29,571 - INFO - Node 3: k=322.5687873196961, f_best=-7.489409923553467, f_min=-7.495589468875551
+2025-05-01 00:08:29,571 - INFO - cur_node_number 2,f_best -7.489409923553467,f_min -7.495589468875551,k 322.5687873196961
+2025-05-01 00:08:29,572 - INFO - f_best_current -7.489409923553467,f_min -7.495589468875551
+2025-05-01 00:08:29,572 - INFO - 结束,fmin= -7.495589468875551, fbestmin=-7.489409923553467
